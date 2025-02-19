@@ -20,9 +20,9 @@
 10. ```bash
     cat urls.txt | grep -v -i -E ‘Cloudflare|imperva|Cloudfront’ > nowaf_subs.txt
 11. ```bash
-   cat urls.txt | grep -v -i -E cloudflare|imperva|cloudfront
+    cat urls.txt | grep -v -i -E cloudflare|imperva|cloudfront
 12. ```bash
-   cat nowaf_subs.txt | grep 403 | awk ‘{print $1}’ > 403_nowaf.txt
+    cat nowaf_subs.txt | grep 403 | awk ‘{print $1}’ > 403_nowaf.txt
 
 # Start Nuclei for list all domain
 1. ```bash
