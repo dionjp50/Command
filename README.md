@@ -1,5 +1,5 @@
 # Recon
-1. ```subfinder -d [example.com](http://example.com) -all -recursive -o url1.txt (Mencari Sub Domain)
+1. ```subfinder -d [example.com](http://example.com) -all -recursive -o url1.txt``` (Mencari Sub Domain)
 2. assetfinder -subs-only  [example.com](http://example.com) > url2.txt
 3. export PATH=$PATH:~/go/bin
 4. amass enum -passive -d [example.com](http://example.com/) -o out.txt
